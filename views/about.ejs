@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jericho Pete Razon | Full-Stack Web Developer</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/about.css" />
+  </head>
+
+  <body>
+    <%- include('partials/header') %>
+    <main>
+      <section class="about-page">
+        <section class="about-content">
+          <div class="about-text">
+            <h1>About Me</h1>
+            <p>
+              I am a Psychology graduate transitioning into full-stack development with a strong foundation in HTML, CSS, JavaScript, and
+              Node.js. My background in psychology strengthens my analytical thinking and understanding of user behavior, allowing me to
+              build user-focused and intuitive web applications. I am currently deepening my backend expertise, expanding my knowledge of
+              version control, API architecture, and scalable application design. I approach development with a problem-solving mindset,
+              focusing on clean structure, usability, and continuous improvement.
+            </p>
+          </div>
+          <img src="/Images/Jericho Pete K. Razon - Picture.jpg" alt="Jericho Pete Razon" class="profile-image" />
+        </section>
+
+        <div class="section-separator"></div>
+
+        <section class="tech-stack">
+          <h2>Tech Stack</h2>
+          <div class="tech-content">
+            <div class="tech-group">
+              <h3>Frontend</h3>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div class="tech-group">
+              <h3>Backend</h3>
+              <ul>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>EJS</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="education">
+          <h2>Education</h2>
+          <div class="degree">
+            <h3>Bachelor of Science in Psychology</h3>
+            <p>UNIVERSITY OF SAN CARLOS - TALAMBAN CAMPUS (2020 - 2024)</p>
+          </div>
+        </section>
+
+        <section class="experience">
+          <h2>Work Experience</h2>
+          <div class="job">
+            <h3>Customer Support Specialist</h3>
+            <p><strong>Teleperformance</strong> (2024 - 2025)</p>
+            <ul>
+              <li>Resolved complex client issues using analytical problem-solving</li>
+              <li>Managed high-volume interactions efficiently</li>
+              <li>Identified patterns in customer behaviour to improve service experience</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="skills">
+          <h2>Skills & Qualifications</h2>
+          <ul>
+            <li>Problem-solving & analytical thinking</li>
+            <li>Effective communication</li>
+            <li>Team collaboration</li>
+          </ul>
+        </section>
+      </section>
+    </main>
+    <%- include('partials/footer') %>
+    <script src="/js/hamburger.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+/*Submission page*/
+
+#submission-page {
+    padding: var(--space-lg);
+    border-radius: var(--radius-lg);
+    background-color: var(--color-bg-surface);
+}
+
+.submitted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: var(--space-md);
+}
+
+.thank-you {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: var(--space-sm);
+}
+
+.thank-you-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 250px;
+}
+
+.thank-you p {
+    color: var(--color-text-secondary);
+}
+
+@media (max-width: 600px) {
+    .thank-you-buttons {
+        flex-direction: column;
+        gap: var(--space-sm);
+    }
+}
